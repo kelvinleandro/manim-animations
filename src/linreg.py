@@ -78,7 +78,6 @@ class LinearRegressionAnimation(Scene):
         info_text = (
             Text(f"Weight: {weight_tracker.get_value():.2f} Bias: {bias_tracker.get_value():.2f}", font_size=24)
             .next_to(title_text, DOWN, buff=0.2)
-            .shift(LEFT * 1.5)
             .add_updater(
                 lambda t: t.become(
                     Text(f"Weight: {weight_tracker.get_value():.2f} Bias: {bias_tracker.get_value():.2f}", font_size=24)
