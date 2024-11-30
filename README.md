@@ -8,3 +8,4 @@ Some animations about machine learning and statistics using Manim Community
 - Linear Regression: [source](./src/linreg.py), [video](./videos/LinearRegression.mp4)
 - K-Means Clustering: [source](./src/kmeans.py), [video](./videos/KMeans.mp4)
 - Markov Chain: [source](./src/markov.py), [video](./videos/MarkovChain.mp4)
+- Normal Distribution: [source](./src/normal.py), [video](./videos/NormalDistribution.mp4)
