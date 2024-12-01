@@ -1,5 +1,5 @@
 # Manim Animations
-Some animations about machine learning and statistics using Manim Community
+Animations using Manim Community exploring various concepts in computer science, with a special focus on machine learning and statistics
 
 # Current animations
 
