@@ -9,3 +9,4 @@ Some animations about machine learning and statistics using Manim Community
 - K-Means Clustering: [source](./src/kmeans.py), [video](./videos/KMeans.mp4)
 - Markov Chain: [source](./src/markov.py), [video](./videos/MarkovChain.mp4)
 - Normal Distribution: [source](./src/normal.py), [video](./videos/NormalDistribution.mp4)
+- Forward Propagation: [source](./src/forward_prop.py), [video](./videos/ForwardPropagation.mp4)
