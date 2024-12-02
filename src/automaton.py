@@ -230,18 +230,19 @@ class AutomatonToRegex(Scene):
             new_q4_q3, DOWN, buff=LABEL_BUFF
         )
 
-        group_to_remove = VGroup(arrow_q3_q3, text_q3_q3, arrow_q4_q3, text_q4_q3)
+        new_text_q0_q3 = Text("ba*bb(ab)*", font_size=FONT_SIZE).move_to(text_q0_q3)
+
+        group_to_remove = VGroup(
+            arrow_q3_q3, text_q3_q3, arrow_q4_q3, text_q4_q3, text_q0_q3
+        )
+        group_to_create = VGroup(new_q4_q3, new_text_q4_q3, new_text_q0_q3).set_color(BLUE)
 
         self.play(group_to_remove.animate.set_color(BLUE))
         self.play(
-            ReplacementTransform(
-                group_to_remove, VGroup(new_q4_q3, new_text_q4_q3).set_color(BLUE)
-            ),
+            ReplacementTransform(group_to_remove, group_to_create),
             run_time=TRANSFORM_RUN_TIME,
         )
-        self.play(
-            new_q4_q3.animate.set_color(WHITE), new_text_q4_q3.animate.set_color(WHITE)
-        )
+        self.play(group_to_create.animate.set_color(WHITE))
 
         self.wait(1)
 
@@ -268,7 +269,7 @@ class AutomatonToRegex(Scene):
 
         group_to_remove = VGroup(
             arrow_q0_q3,
-            text_q0_q3,
+            new_text_q0_q3,
             q3_dot,
             q3_text,
             arrow_q3_q4,
