@@ -11,3 +11,4 @@ Animations using Manim Community exploring various concepts in computer science,
 - Normal Distribution: [source](./src/normal.py), [video](./videos/NormalDistribution.mp4)
 - Forward Propagation: [source](./src/forward_prop.py), [video](./videos/ForwardPropagation.mp4)
 - Automaton to Regular Expression: [source](./src/automaton.py), [video](./videos/AutomatonToRegex.mp4)
+- Log Transformation: [source](./src/log_transform.py), [video](./videos/LogTransform.mp4)
