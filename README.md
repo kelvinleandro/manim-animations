@@ -12,3 +12,4 @@ Animations using Manim Community exploring various concepts in computer science,
 - Forward Propagation: [source](./src/forward_prop.py), [video](./videos/ForwardPropagation.mp4)
 - Automaton to Regular Expression: [source](./src/automaton.py), [video](./videos/AutomatonToRegex.mp4)
 - Log Transformation: [source](./src/log_transform.py), [video](./videos/LogTransform.mp4)
+- Euclidean Distance: [source](./src/euclidean.py), [video](./videos/EuclideanDistance.mp4)
