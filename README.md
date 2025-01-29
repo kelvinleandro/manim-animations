@@ -13,3 +13,4 @@ Animations using Manim Community exploring various concepts in computer science,
 - Automaton to Regular Expression: [source](./src/automaton.py), [video](./videos/AutomatonToRegex.mp4)
 - Log Transformation: [source](./src/log_transform.py), [video](./videos/LogTransform.mp4)
 - Euclidean Distance: [source](./src/euclidean.py), [video](./videos/EuclideanDistance.mp4)
+- K-nearest neighbors: [source](./src/knn.py), [video](./videos/KNN.mp4)
