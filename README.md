@@ -14,3 +14,5 @@ Animations using Manim Community exploring various concepts in computer science,
 - Log Transformation: [source](./src/log_transform.py), [video](./videos/LogTransform.mp4)
 - Euclidean Distance: [source](./src/euclidean.py), [video](./videos/EuclideanDistance.mp4)
 - K-nearest neighbors: [source](./src/knn.py), [video](./videos/KNN.mp4)
+- ReLU activation function: [source](./src/relu.py), [video](./videos/ReLU.mp4)
+- Sigmoid activation function: [source](./src/sigmoid.py), [video](./videos/Sigmoid.mp4)
