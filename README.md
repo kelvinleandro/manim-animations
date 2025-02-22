@@ -16,3 +16,4 @@ Animations using Manim Community exploring various concepts in computer science,
 - K-nearest neighbors: [source](./src/knn.py), [video](./videos/KNN.mp4)
 - ReLU activation function: [source](./src/relu.py), [video](./videos/ReLU.mp4)
 - Sigmoid activation function: [source](./src/sigmoid.py), [video](./videos/Sigmoid.mp4)
+- Grid Search: [source](./src/grid_search.py), [video](./videos/GridSearch3D.mp4)
