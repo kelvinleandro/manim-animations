@@ -34,8 +34,8 @@ Animations using Manim Community exploring various concepts in computer science,
 3. **Clone the Repository**
 
    ```bash
-   git clone <your-repo-url>
-   cd <your-repo-name>
+   git clone https://github.com/kelvinleandro/manim-animations
+   cd manim-animations
    ```
 
 4. **Create a Virtual Environment (Recommended)**
