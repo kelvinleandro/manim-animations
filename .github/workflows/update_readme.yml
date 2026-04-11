@@ -1,0 +1,40 @@
+name: Auto Update README
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/**'
+      - 'scripts/update_readme.py'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run update script
+        run: python scripts/update_readme.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          # Only commit if there are changes
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "docs: auto-update animations table in README"
+            git push
+          else
+            echo "No changes to commit"
+          fi
