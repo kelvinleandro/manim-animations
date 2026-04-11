@@ -8,16 +8,16 @@ Animations using Manim Community exploring various concepts in computer science,
 | Animation | Source |
 |---|---|
 | Autoencoder | [autoencoder.py](./src/autoencoder.py) |
-| Automaton | [automaton.py](./src/automaton.py) |
-| Euclidian | [euclidian.py](./src/euclidian.py) |
-| Forward Prop | [forward_prop.py](./src/forward_prop.py) |
+| Automaton To Regex | [automaton_to_regex.py](./src/automaton_to_regex.py) |
+| Euclidian Distance | [euclidian_distance.py](./src/euclidian_distance.py) |
+| Forward Propagation | [forward_propagation.py](./src/forward_propagation.py) |
 | Grid Search | [grid_search.py](./src/grid_search.py) |
-| Kmeans | [kmeans.py](./src/kmeans.py) |
+| K Means | [k_means.py](./src/k_means.py) |
 | Knn | [knn.py](./src/knn.py) |
-| Linreg | [linreg.py](./src/linreg.py) |
-| Log Transform | [log_transform.py](./src/log_transform.py) |
-| Markov | [markov.py](./src/markov.py) |
-| Normal | [normal.py](./src/normal.py) |
+| Linear Regression | [linear_regression.py](./src/linear_regression.py) |
+| Log Transformation | [log_transformation.py](./src/log_transformation.py) |
+| Markov Chain | [markov_chain.py](./src/markov_chain.py) |
+| Normal Distribution | [normal_distribution.py](./src/normal_distribution.py) |
 | Normalization | [normalization.py](./src/normalization.py) |
 | Relu | [relu.py](./src/relu.py) |
 | Sigmoid | [sigmoid.py](./src/sigmoid.py) |
