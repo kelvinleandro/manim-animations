@@ -9,6 +9,9 @@ Animations using Manim Community exploring various concepts in computer science,
 |---|---|
 | Autoencoder | [autoencoder.py](./src/autoencoder.py) |
 | Automaton To Regex | [automaton_to_regex.py](./src/automaton_to_regex.py) |
+| Central Limit Theorem | [central_limit_theorem.py](./src/central_limit_theorem.py) |
+| Determinant As Area | [determinant_as_area.py](./src/determinant_as_area.py) |
+| Dot Product | [dot_product.py](./src/dot_product.py) |
 | Euclidian Distance | [euclidian_distance.py](./src/euclidian_distance.py) |
 | Forward Propagation | [forward_propagation.py](./src/forward_propagation.py) |
 | Grid Search | [grid_search.py](./src/grid_search.py) |
@@ -17,6 +20,7 @@ Animations using Manim Community exploring various concepts in computer science,
 | Linear Regression | [linear_regression.py](./src/linear_regression.py) |
 | Log Transformation | [log_transformation.py](./src/log_transformation.py) |
 | Markov Chain | [markov_chain.py](./src/markov_chain.py) |
+| Monte Carlo Pi | [monte_carlo_pi.py](./src/monte_carlo_pi.py) |
 | Normal Distribution | [normal_distribution.py](./src/normal_distribution.py) |
 | Normalization | [normalization.py](./src/normalization.py) |
 | Relu | [relu.py](./src/relu.py) |
